@@ -1,4 +1,7 @@
 import { Module } from '@nestjs/common';
+import { DishesController } from './dishes.controller';
 
-@Module({})
+@Module({
+  controllers: [DishesController]
+})
 export class DishesModule {}
