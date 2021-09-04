@@ -1,6 +1,6 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { CreateDishDto } from 'src/create-dish-dto';
 
+import { CreateDishDto } from '../create-dish-dto';
 import { DishesService } from './dishes.service';
 
 @Controller('dishes')
